@@ -16,7 +16,7 @@ class Services:
 
     def video_to_images_traffic1(self):
 
-        video_path = "static\Traffic.mp4"
+        video_path = "static/Traffic.mp4"
         output_folder = "ExtractedImageDataset"
         if not os.path.exists(str(output_folder)):
             os.makedirs(str(output_folder))
@@ -46,7 +46,7 @@ class Services:
 
     def video_to_images_traffic2(self):
 
-        video_path = "static\Traffic2.mp4"
+        video_path = "static/Traffic2.mp4"
         output_folder = "ExtractedImageDataset2"
         if not os.path.exists(str(output_folder)):
             os.makedirs(str(output_folder))
